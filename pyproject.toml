@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "task2-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Shmit Angelina <89831023404@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standart"], version = "^0.24.0.post1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
